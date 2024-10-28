@@ -1,0 +1,61 @@
+body{
+    font-family: 'Segoe UI light', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.item{
+
+    position: relative;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.item-caption{
+    background-color: #fff;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    bottom: 19px;
+    text-align: center;
+    padding-block: 2px;
+}
+
+.lightbox-container{
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-item{
+    width: 50%;
+    height: 400px;
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lightbox-item i{
+
+    font-size: 1.2rem;
+    margin: 0.8rem;
+    cursor: pointer;
+
+}
+
+.lightbox-item #close{
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
